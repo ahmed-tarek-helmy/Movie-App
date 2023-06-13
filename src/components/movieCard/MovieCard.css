@@ -1,0 +1,14 @@
+.small {
+  font-size: 14;
+  color: #aaa;
+  text-overflow: ellipsis;
+
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+i:hover {
+  cursor: pointer;
+}
